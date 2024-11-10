@@ -1,0 +1,184 @@
+.container {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: flex-start; /* Aligns the content at the top */
+  gap: 350px; /* Adds space between the left and right containers */
+  padding: 50px; /* Optional padding for some spacing */
+}
+
+.container-left{
+  width: 350px;
+  display: inline-block;
+}
+
+body{
+  background-color: #151515;
+  font-family: "Averia Serif Libre", serif;
+}
+.profile-img{
+  width: 350px;
+  background-color: #ECF7FF;
+  border-radius: 50%;
+}
+
+.pin-icon{
+  width: 30px;
+  height: 30px;
+}
+
+.Profile-content{
+  width: 500px;
+}
+
+.name{
+  color: #FFFFFF;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.role, .location, .moto{
+  color: #D4CCCC;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.container-right{
+  display: inline-block;
+  width: 700px;
+}
+
+
+.About-me{
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.description{
+  color: #D4CCCC;
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+.skills{
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.language, .Frameworks, .Backend, .Database{
+  font-size: 28px;
+  color: #D4CCCC;
+}
+
+.languages-skill, .frameworks-skill, .Backend-skill, .Database-skill{
+  display: flex;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.HTML, .CSS, .JS, .Bootstrap, .PHP, .MySQL{
+  background-color: #B118DC;
+  margin-right: 10px;
+  width: 100px;
+  border-radius: 12px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.experience{
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+.vertical-line{
+  margin-top: 5px;
+  background-color: #FFFFFF;
+  width: 2px;
+  height: 350px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.experience-container{
+  display: flex;
+  width: 700px;
+}
+
+.usa-logo, .udemy-logo{
+  width: 150px;
+  height: 150px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.title-logo{
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+.Program, .school-year{
+  color: #D4CCCC;
+  font-size: 24px;
+}
+
+.usa-experience, .udemy-experience, .project-experience{
+  color: #FFFFFF;
+  font-size: 24px;
+  width: 700px;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.vertical-project-line{
+  margin-top: 5px;
+  background-color: #FFFFFF;
+  width: 2px;
+  height: 800px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.projects-title{
+  color: #FFFFFF;
+  font-size: 36px;
+  width: 500px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+
+.project-images{
+  margin-left: 15px;
+  width: 900px;
+  height: 350px;
+}
+
+
+.socials-container{
+  background-color: #B118DC;
+  width: 450px;
+  border-radius: 20px;
+}
+
+.social-info{
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
+
+.facebook-icon, .instagram-icon, .x-icon{
+  width: 50px;
+}
+
+.resume{
+  font-size: 30px;
+  margin-left: 10px;
+  background-color: #151515;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 12px;
+}
+
